@@ -1,7 +1,10 @@
 Dockerfile for CentOS 7 with Apache and pyenv
 
 This is a working dockerfile to use CentOS 7 with pyenv and Apache2 installed.
-This exposes ports 80 and 8080. You can call it like this:
+One can use this Docerfile to test some settings and manipulations similar to that cPanel offers.
+You are welcome to add MySQL/PostgreSQL or any other DB, RabbiMQ/Kafka, nGinx, etc.
+
+This Dockerfile, by default, exposes ports 80 and 8080. You can call it like this:
 
 
 `$ docker build -t pyenv_on_co7 .`
