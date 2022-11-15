@@ -4,7 +4,7 @@ RUN yum -y install wget
 RUN yum groupinstall -y "Development tools"
 RUN yum -y update
 RUN yum install -y epel-release pandoc
-RUN yum -y install git tar gcc make bzip2 openssl openssl-devel
+RUN yum -y install git tar gcc make bzip2 openssl openssl-devel which
 RUN yum -y update
 RUN yum install -y bzip2-devel ncurses ncurses-devel libffi-devel libffi readline readline-devel
 RUN yum -y update
