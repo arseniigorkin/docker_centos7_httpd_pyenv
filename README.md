@@ -17,7 +17,7 @@ Then:
 - you can detach the container, by the `-d` flag, so you will be able to close terminal and the container will be alive anyway. You can then enter it at anytime you want by `$ docker attach pyenv_on_co7`. But note: if you have no service, that remaining alive in the container it will not be alive. Your app must spin as a process to make the container alive. For this purpose I suppose you to have `bash` at the end of your `run` command, as this shell will be always alive.
 - Add `--rm` to autoremove container on exit to make the name available again.
 - Do not forget to set a proper configuration in the /etc/httpd/conf/httpd.conf to make your server working.
-- Commands for Starting/restarting/stopping the Apache2 server in the CentOS 7 is `$ pachectl -k start`, `$ pachectl -k stop`, `$ pachectl -k restart`.
+- Commands for Starting/restarting/stopping the Apache2 server in the CentOS 7 is `$ apachectl -k start`, `$ apachectl -k stop`, `$ apachectl -k restart`.
 
 Should you have any questions or advices - please, message me. Also, do not hesitate to fork this rep and enchance!
 
