@@ -8,7 +8,7 @@ RUN yum -y install git tar gcc make bzip2 openssl openssl-devel which
 RUN yum -y update
 RUN yum install -y bzip2-devel ncurses ncurses-devel libffi-devel libffi readline readline-devel
 RUN yum -y update
-RUN yum install -y patch nano
+RUN yum install -y patch nano python-pip
 RUN yum -y update
 RUN yum install -y compat-readline5 libxml2-devel libxslt-devel libyaml-devel lzma lzma-devel
 RUN yum -y update
