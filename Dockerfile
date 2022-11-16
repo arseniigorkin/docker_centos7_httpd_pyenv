@@ -27,4 +27,3 @@ ENV eval "$(pyenv init -)"
 CMD python --version
 RUN yum -y install httpd
 EXPOSE 80 8080
-#
