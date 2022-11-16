@@ -6,6 +6,8 @@
 It's good to use this Docerfile to test some settings and manipulations similar to the cPanel's environment, for example.
 You are welcome to add MySQL/PostgreSQL or any other DB, RabbiMQ/Kafka, nGinx, etc.
 
+Please, read full set of pyenv commands here: [pyenv Commands](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md)
+
 This Dockerfile, by default, exposes ports `80` and `8080`. You can call it like this:
 
 
